@@ -19,11 +19,11 @@
 		30E706231C476F5200F12FD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E706221C476F5200F12FD1 /* AppDelegate.m */; };
 		30E706261C476F5200F12FD1 /* HXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E706251C476F5200F12FD1 /* HXViewController.m */; };
 		30E7062B1C476F5200F12FD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30E7062A1C476F5200F12FD1 /* Assets.xcassets */; };
-		9CA9CF901D24AB30007F3E91 /* HXTagsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA9CF8F1D24AB30007F3E91 /* HXTagsCell.m */; };
-		9CA9CF931D24AB64007F3E91 /* HXTagAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA9CF921D24AB64007F3E91 /* HXTagAttribute.m */; };
-		9CB522301D211D9D0047DD2B /* HXTagCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB5222B1D211D9D0047DD2B /* HXTagCollectionViewFlowLayout.m */; };
-		9CB522311D211D9D0047DD2B /* HXTagCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB5222D1D211D9D0047DD2B /* HXTagCollectionViewCell.m */; };
-		9CB522321D211D9D0047DD2B /* HXTagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB5222F1D211D9D0047DD2B /* HXTagsView.m */; };
+		C6F84CE21FE0DD0B00CFD1EF /* HXTagCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F84CD81FE0DD0B00CFD1EF /* HXTagCollectionViewCell.m */; };
+		C6F84CE31FE0DD0B00CFD1EF /* HXTagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F84CDA1FE0DD0B00CFD1EF /* HXTagsView.m */; };
+		C6F84CE41FE0DD0B00CFD1EF /* HXTagsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F84CDB1FE0DD0B00CFD1EF /* HXTagsCell.m */; };
+		C6F84CE51FE0DD0B00CFD1EF /* HXTagAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F84CDD1FE0DD0B00CFD1EF /* HXTagAttribute.m */; };
+		C6F84CE61FE0DD0B00CFD1EF /* HXTagCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F84CE01FE0DD0B00CFD1EF /* HXTagCollectionViewFlowLayout.m */; };
 		E4968DCD1D3CDDA400102A3E /* HXTagTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4968DCC1D3CDDA400102A3E /* HXTagTableViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -45,16 +45,16 @@
 		30E7062A1C476F5200F12FD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30E7062F1C476F5200F12FD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CA8EDBD1D23DDD700A711A2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
-		9CA9CF8E1D24AB30007F3E91 /* HXTagsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXTagsCell.h; sourceTree = "<group>"; };
-		9CA9CF8F1D24AB30007F3E91 /* HXTagsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXTagsCell.m; sourceTree = "<group>"; };
-		9CA9CF911D24AB64007F3E91 /* HXTagAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXTagAttribute.h; sourceTree = "<group>"; };
-		9CA9CF921D24AB64007F3E91 /* HXTagAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXTagAttribute.m; sourceTree = "<group>"; };
-		9CB5222A1D211D9D0047DD2B /* HXTagCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXTagCollectionViewFlowLayout.h; sourceTree = "<group>"; };
-		9CB5222B1D211D9D0047DD2B /* HXTagCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXTagCollectionViewFlowLayout.m; sourceTree = "<group>"; };
-		9CB5222C1D211D9D0047DD2B /* HXTagCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXTagCollectionViewCell.h; sourceTree = "<group>"; };
-		9CB5222D1D211D9D0047DD2B /* HXTagCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXTagCollectionViewCell.m; sourceTree = "<group>"; };
-		9CB5222E1D211D9D0047DD2B /* HXTagsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXTagsView.h; sourceTree = "<group>"; };
-		9CB5222F1D211D9D0047DD2B /* HXTagsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXTagsView.m; sourceTree = "<group>"; };
+		C6F84CD81FE0DD0B00CFD1EF /* HXTagCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXTagCollectionViewCell.m; sourceTree = "<group>"; };
+		C6F84CD91FE0DD0B00CFD1EF /* HXTagAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXTagAttribute.h; sourceTree = "<group>"; };
+		C6F84CDA1FE0DD0B00CFD1EF /* HXTagsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXTagsView.m; sourceTree = "<group>"; };
+		C6F84CDB1FE0DD0B00CFD1EF /* HXTagsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXTagsCell.m; sourceTree = "<group>"; };
+		C6F84CDC1FE0DD0B00CFD1EF /* HXTagCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXTagCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		C6F84CDD1FE0DD0B00CFD1EF /* HXTagAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXTagAttribute.m; sourceTree = "<group>"; };
+		C6F84CDE1FE0DD0B00CFD1EF /* HXTagCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXTagCollectionViewCell.h; sourceTree = "<group>"; };
+		C6F84CDF1FE0DD0B00CFD1EF /* HXTagsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXTagsView.h; sourceTree = "<group>"; };
+		C6F84CE01FE0DD0B00CFD1EF /* HXTagCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXTagCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		C6F84CE11FE0DD0B00CFD1EF /* HXTagsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXTagsCell.h; sourceTree = "<group>"; };
 		E4968DCB1D3CDDA400102A3E /* HXTagTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXTagTableViewController.h; sourceTree = "<group>"; };
 		E4968DCC1D3CDDA400102A3E /* HXTagTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXTagTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,9 +104,9 @@
 		30E7061D1C476F5200F12FD1 /* HXTagsView */ = {
 			isa = PBXGroup;
 			children = (
+				C6F84CD71FE0DD0B00CFD1EF /* HXTagsView */,
 				9CA8EDBD1D23DDD700A711A2 /* README.md */,
 				30D2F71C1CC76D6C007D766B /* 效果图 */,
-				30E706351C47750F00F12FD1 /* 标签 */,
 				30E706211C476F5200F12FD1 /* AppDelegate.h */,
 				30E706221C476F5200F12FD1 /* AppDelegate.m */,
 				30E706241C476F5200F12FD1 /* HXViewController.h */,
@@ -128,21 +128,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		30E706351C47750F00F12FD1 /* 标签 */ = {
+		C6F84CD71FE0DD0B00CFD1EF /* HXTagsView */ = {
 			isa = PBXGroup;
 			children = (
-				9CB5222A1D211D9D0047DD2B /* HXTagCollectionViewFlowLayout.h */,
-				9CB5222B1D211D9D0047DD2B /* HXTagCollectionViewFlowLayout.m */,
-				9CB5222C1D211D9D0047DD2B /* HXTagCollectionViewCell.h */,
-				9CB5222D1D211D9D0047DD2B /* HXTagCollectionViewCell.m */,
-				9CA9CF911D24AB64007F3E91 /* HXTagAttribute.h */,
-				9CA9CF921D24AB64007F3E91 /* HXTagAttribute.m */,
-				9CB5222E1D211D9D0047DD2B /* HXTagsView.h */,
-				9CB5222F1D211D9D0047DD2B /* HXTagsView.m */,
-				9CA9CF8E1D24AB30007F3E91 /* HXTagsCell.h */,
-				9CA9CF8F1D24AB30007F3E91 /* HXTagsCell.m */,
+				C6F84CD81FE0DD0B00CFD1EF /* HXTagCollectionViewCell.m */,
+				C6F84CD91FE0DD0B00CFD1EF /* HXTagAttribute.h */,
+				C6F84CDA1FE0DD0B00CFD1EF /* HXTagsView.m */,
+				C6F84CDB1FE0DD0B00CFD1EF /* HXTagsCell.m */,
+				C6F84CDC1FE0DD0B00CFD1EF /* HXTagCollectionViewFlowLayout.h */,
+				C6F84CDD1FE0DD0B00CFD1EF /* HXTagAttribute.m */,
+				C6F84CDE1FE0DD0B00CFD1EF /* HXTagCollectionViewCell.h */,
+				C6F84CDF1FE0DD0B00CFD1EF /* HXTagsView.h */,
+				C6F84CE01FE0DD0B00CFD1EF /* HXTagCollectionViewFlowLayout.m */,
+				C6F84CE11FE0DD0B00CFD1EF /* HXTagsCell.h */,
 			);
-			path = "标签";
+			path = HXTagsView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,15 +221,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CB522301D211D9D0047DD2B /* HXTagCollectionViewFlowLayout.m in Sources */,
 				30E706261C476F5200F12FD1 /* HXViewController.m in Sources */,
-				9CB522321D211D9D0047DD2B /* HXTagsView.m in Sources */,
-				9CA9CF931D24AB64007F3E91 /* HXTagAttribute.m in Sources */,
 				30E706231C476F5200F12FD1 /* AppDelegate.m in Sources */,
+				C6F84CE21FE0DD0B00CFD1EF /* HXTagCollectionViewCell.m in Sources */,
+				C6F84CE51FE0DD0B00CFD1EF /* HXTagAttribute.m in Sources */,
+				C6F84CE31FE0DD0B00CFD1EF /* HXTagsView.m in Sources */,
 				E4968DCD1D3CDDA400102A3E /* HXTagTableViewController.m in Sources */,
 				30E706201C476F5200F12FD1 /* main.m in Sources */,
-				9CA9CF901D24AB30007F3E91 /* HXTagsCell.m in Sources */,
-				9CB522311D211D9D0047DD2B /* HXTagCollectionViewCell.m in Sources */,
+				C6F84CE61FE0DD0B00CFD1EF /* HXTagCollectionViewFlowLayout.m in Sources */,
+				C6F84CE41FE0DD0B00CFD1EF /* HXTagsCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
